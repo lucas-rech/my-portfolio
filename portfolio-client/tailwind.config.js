@@ -16,6 +16,11 @@ export default {
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],
       josefin: ['Josefin Sans', 'sans-serif'],
+    },
+    extend: {
+      spacing: {
+        'photo': '590px', 
+      }
     }
   },
   plugins: [],
